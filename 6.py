@@ -1,42 +1,42 @@
-# #Tuple Operations
+#Tuple Operations
 
-# house = ("hall", "kitchen", "bathroom")
-# print(house)
-# print(house[1])
-# print(house[1:3])
+house = ("hall", "kitchen", "bathroom")
+print(house)
+print(house[1])
+print(house[1:3])
 
-# tree = ("leaves", "branch", "flowers")
-# print(tree)
-# combine_tree_house = tree + house
-# print(combine_tree_house)
+tree = ("leaves", "branch", "flowers")
+print(tree)
+combine_tree_house = tree + house
+print(combine_tree_house)
 
-# #Set operations
-# ranj = {"watermelon", "banana", "grapes", "peach"}
-# keer = {"apple", "cherry", "peach", "orange"}
+#Set operations
+ranj = {"watermelon", "banana", "grapes", "peach"}
+keer = {"apple", "cherry", "peach", "orange"}
 
-# union = ranj | keer
-# intersect = ranj & keer
-# difference = ranj ^ keer
-# print(union)
-# print(intersect)
-# print(difference)
+union = ranj | keer
+intersect = ranj & keer
+difference = ranj ^ keer
+print(union)
+print(intersect)
+print(difference)
 
-# ranj.add("avacado")
-# print(ranj)
-# ranj.remove("grapes")
-# ranj.discard("cherry")
+ranj.add("avacado")
+print(ranj)
+ranj.remove("grapes")
+ranj.discard("cherry")
 
-# #list into tuples and sets
+#list into tuples and sets
 
-# shop = ("chips", "chocolates", "drinks")
-# s = tuple(shop)
-# print(type(s))
-# p = set(shop)
-# print(type(p))
+shop = ("chips", "chocolates", "drinks")
+s = tuple(shop)
+print(type(s))
+p = set(shop)
+print(type(p))
 
-# # s.append("cake") # tuples has no add operations (immutable = unchangeable)
-# p.add("cake")
-# print(p)
+# s.append("cake") # tuples has no add operations (immutable = unchangeable)
+p.add("cake")
+print(p)
 
 #Reverse a String (Two pointers)
 

@@ -24,3 +24,34 @@ while i <= 5:
 
 for i in range(5):
     print("Hello")
+
+#Bus fare
+age = int(input("Enter the age: "))
+if age < 5:
+    print("Bus pass is free!")
+elif age >= 60:
+    print("Get senior discount!")
+else:
+    print("Pay full fare!")
+
+#Meal tracker
+time = int(input("Enter the time: "))
+
+if time == 8:
+    print("Its breakfast time")
+elif time == 1:
+    print("Its lunch time")
+elif time == 20:
+    print("Its dinner time")
+else:
+    print("Its not meal time")
+
+#Voting eligibility
+
+membership = int(input("Enter the age: "))
+if membership < 18:
+    print("Student membership!")
+elif membership >= 60:
+    print("Senior membership!")
+else:
+    print("Regular membership!")
