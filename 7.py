@@ -1,29 +1,29 @@
-# #Dictionary Operations & methods 
-# state_food = {
-#     "Bengaluru": "Bisi bele bath",
-#     "Mysore":"Mysore pak",
-#     "Mangaluru":"Mangalur buns",
-#     "Udupi":"Neer Dose",
-#     "Dharwad":"Peda"
-# }
-# #Adding new item
-# print(state_food)
-# state_food["Davangere"] = "Benne Dose"
-# print("After adding new element: ", state_food)
+#Dictionary Operations & methods 
+state_food = {
+    "Bengaluru": "Bisi bele bath",
+    "Mysore":"Mysore pak",
+    "Mangaluru":"Mangalur buns",
+    "Udupi":"Neer Dose",
+    "Dharwad":"Peda"
+}
+#Adding new item
+print(state_food)
+state_food["Davangere"] = "Benne Dose"
+print("After adding new element: ", state_food)
 
-# #Updating the item
-# state_food["Bengaluru"] = "Masala Dose"
-# print("After updating: ", state_food)
+#Updating the item
+state_food["Bengaluru"] = "Masala Dose"
+print("After updating: ", state_food)
 
-# #Removing item
-# dharwad_food = state_food.pop("Dharwad") #using pop
-# print(dharwad_food)
+#Removing item
+dharwad_food = state_food.pop("Dharwad") #using pop
+print(dharwad_food)
 
-# del state_food["Mangaluru"] #using del
-# print(state_food)
+del state_food["Mangaluru"] #using del
+print(state_food)
 
-# state_food.clear() #using clear to empty the dictionary
-# print(state_food)
+state_food.clear() #using clear to empty the dictionary
+print(state_food)
 
 
 friends = {
