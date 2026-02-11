@@ -65,3 +65,18 @@ filtered_cities = {
 print(filtered_cities)
 
 #Nested List Challenge
+
+matrix = [
+    [1,2,3],
+    [4,5,6],
+    [7,8,9]
+]
+
+print("Matrix row by row")
+for row in matrix:
+    print(*row)
+
+print("Sum of each row")
+for i, row in enumerate(matrix,start = 1):
+    row_sum = sum(row)
+    print("Sum of Row", i ,":", row_sum)
