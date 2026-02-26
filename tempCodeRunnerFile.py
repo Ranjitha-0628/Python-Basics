@@ -1,0 +1,1 @@
+print("Kannada foods: ", kannada_foods)

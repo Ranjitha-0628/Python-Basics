@@ -6,7 +6,7 @@ print("Both numbers are greater than 10: " + str(a>10 and b>10))
 print("At least one of the numbers is less than 5: " + str(a<5 or b>5))
 print("The first number is not greater than the second: " + str(not(a > b )))
 
-#Comparion Operations
+#Comparison Operations
 
 age = int(input("Enter the age: "))
 print("You are major: " + str(age >= 18))

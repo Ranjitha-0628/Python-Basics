@@ -23,6 +23,7 @@ while seats > 0:
 
 print("All seats are booked.")
 
+#happy new yearrr
 i = 10
 while i > 0:
     print(i)

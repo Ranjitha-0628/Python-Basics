@@ -5,11 +5,11 @@ print(b)
 
 print(a+b)
 print(a-b)
-print(a*b)
-print(a/b)
-print(a//b)
-print(a%b)
-print(a**b)
+print(a*b) #asterisk or multiplicaion operator
+print(a/b) 
+print(a//b) #floor division operator
+print(a%b) 
+print(a**b) #Exponentiation operator
 
 print(a+b-a*b/a%b+5)
 print(a//b+a-b-a**b+7)
@@ -20,10 +20,10 @@ _1number = int(input("Enter the first number: "))
 _2number = int(input("Enter the second number: "))
 
 print("Before swap: " + "First number = " + str(_1number) + " Second number = " + str(_2number))
-
-temp =_1number
-_1number = _2number
-_2number = temp
+print(f"Before Swap: \nFirst number = {_1number} Second number = {_2number}") # fStrings
+temp =_1number # Store _1number in temp
+_1number = _2number # Assign value of _2number to _1number
+_2number = temp # Assign value of temp to _2number
 
 print("After swap: " + "First number = " + str(_1number) + " Second number = " + str(_2number))
 

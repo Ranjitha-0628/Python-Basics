@@ -18,11 +18,11 @@ total_price = 0
 for price in dict.values():
     total_price += price
 print(total_price)
-
+#other method
 total_price = sum(dict.values())
 print(total_price) # using sum() function
 
-#List of numbers 1 to 10, use list compreshensio to create their squares
+#List of numbers 1 to 10, use list compreshension to create their squares
 numbers = list(range(1, 11))
 squares = [num ** 2 for num in numbers]
 print("Squares of numbers from 1 to 10: ", squares)

@@ -4,7 +4,7 @@ A = input("Enter first name: ")
 B = input("Enter second name: ")
 age = int(input("Enter the age: "))
 
-print(A, B, age)
+print(f"Hey! This is {A}, {B}, I am {age} years old.")
 
 # Temperature Converter
 
